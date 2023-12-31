@@ -15,3 +15,7 @@ For each test case, output the maximum number of burgers that Ron can make.
 ## Constraints
 * 1 < T ≤ 1000
 * 1 ≤ A, B ≤ 10^5
+
+## REFERENCE 
+
+https://www.codechef.com/START43A/problems/BURGERS
