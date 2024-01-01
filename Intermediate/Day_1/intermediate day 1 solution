@@ -1,0 +1,30 @@
+//solved in java language
+
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int t = sc.nextInt();
+        while (t-- > 0) {
+            int a = 0, b = 0, c = 0;
+            for (int i = 0; i < 3; i++) {
+                for (int j = 0; j < 3; j++) {
+                    char s = sc.next().charAt(0);
+                    if (s == 'A')
+                        a++;
+                    else if (s == 'B')
+                        b++;
+                    else
+                        c++;
+                }
+            }
+            if (a != 3)
+                System.out.println('A');
+            else if (b != 3)
+                System.out.println('B');
+            else
+                System.out.println('C');
+        }
+    }
+}
