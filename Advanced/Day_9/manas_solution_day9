@@ -1,0 +1,29 @@
+int sqr(int x)
+{
+    int sq = 0;
+    while (x) {
+        int digit = x % 10;
+        sq += digit * digit;
+        x = x / 10;
+    }
+    return sq;
+}
+
+bool isGoodNumber(int n) {
+    // Write your code here.
+    set<int> s;
+    s.insert(n);
+
+    while(1)
+    {
+        if(n==1)
+        return true;
+
+        n = sqr(n);
+
+        if(s.find(n) != s.end())
+        return false;
+
+        s.insert(n);
+    }
+}
