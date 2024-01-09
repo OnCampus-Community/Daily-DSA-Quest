@@ -12,4 +12,4 @@ You are given an array/list 'ARR' of integers of length ‘N’. You are suppose
 
 ## REFERENCE 
 
-https://www.codingninjas.com/studio/problem-of-the-day/easy
+https://www.codingninjas.com/studio/problems/majority-element-ii_893027
